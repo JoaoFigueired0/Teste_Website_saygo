@@ -1,0 +1,112 @@
+// Definindo @font-face para a fonte Oswald
+@font-face {
+    font-family: "oswaldregular";
+    src: url("../fonts/oswald-variablefont_wght-webfont.eot");
+    src: url("../fonts/oswald-variablefont_wght-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/oswald-variablefont_wght-webfont.woff2") format("woff2"),
+         url("../fonts/oswald-variablefont_wght-webfont.woff") format("woff"),
+         url("../fonts/oswald-variablefont_wght-webfont.svg#oswaldregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'overpassregular';
+    src: url('../fonts/overpass-variablefont_wght-webfont.eot');
+    src: url('../fonts/overpass-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/overpass-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../fonts/overpass-variablefont_wght-webfont.woff') format('woff'),
+         url('../fonts/overpass-variablefont_wght-webfont.ttf') format('truetype'),
+         url('../fonts/overpass-variablefont_wght-webfont.svg#overpassregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Cores
+$primary-color: #001740;
+$secondary-color: #c2ecf9;
+$itens-color: #ff6624;
+$accent-color: #e67e22; 
+$background-color: #f0f0f0;
+$text-color: #333; 
+$font-dark:#fff;
+$background-color-blue: #004193;
+$color-verde-tech: #c3fcb9; 
+
+
+// Fontes
+$font-stack: 'oswaldregular';
+$heading-font: $font-stack; // Pode ser substituído por outra fonte específica para títulos
+$body-font: 'overpassregular'; // Pode ser substituído por outra fonte específica para corpo de texto
+
+// Tamanhos 
+$base-font-size: 19px; 
+$base-font-line-size: 25px; 
+$heading-1-size: 2.5rem;
+$heading-2-size: 2rem;
+$heading-3-size: 1.5rem;
+$heading-4-size: 50px;
+$heading-4-line: 70px;
+
+
+// Espaçamentos
+$padding-small: 10px;
+$padding-medium: 20px;
+$padding-large: 30px;
+
+// Bordas
+$border-radius: 5px;
+$border-width: 1px;
+$border-color: #ccc;
+
+// Z-index
+$z-index-header: 1000;
+$z-index-modal: 2000;
+$z-index-overlay: 1500;
+
+// Layout e Estrutura
+$container-max-widths: (
+    sm: 100%,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px
+);
+
+$row-padding-x: 15px;
+$row-padding-y: 0;
+$col-padding: 15px;
+
+// Classes para alinhamento de texto
+$text-align-center: center;
+$text-align-left: left;
+$text-align-right: right;
+$text-align-justify: justify;
+
+// Classes para centralização de conteúdo
+$align-items-center: center;
+
+// Classes para justificação de texto
+$text-justify: justify;
+
+// Classes para alinhamento vertical
+$align-items-baseline: baseline;
+$align-items-stretch: stretch;
+$align-items-center: center;
+
+
+// Definindo variáveis de cor
+$menu-item-color: #FFF;
+$menu-item-hover-color: $itens-color;
+
+//buttons
+$padding-btn: 20px 30px;
+$color-btn: $menu-item-color; 
+$background-btn2: #004193;
+$background-btn1: $itens-color;
+
+
+//banner filtro e cor da primeira section
+$section1: rgba(26, 28, 32, 1);
+$section0: rgba(26, 28, 32, 0); 
+$section2: #111a2d;  
+$card: #1c1c1c;

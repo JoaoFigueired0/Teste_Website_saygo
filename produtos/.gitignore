@@ -1,0 +1,12 @@
+# Ignorar arquivos compilados
+styles.css
+
+# Ignorar pastas do Node.js
+node_modules/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de log
+*.log
